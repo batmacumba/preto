@@ -170,11 +170,6 @@ void resetConfig(OSCMessage &msg, int addrOffset) {
   UNUSED(addrOffset);
   Net_Settings net_setup;
   Servo_Settings serv_setup;
-
-  // disable Ethernet chip
-  pinMode(10, OUTPUT);
-  digitalWrite(10, HIGH);
-  delay(1000);
   
   Serial.println("resetConfig()...");
   /* Marks the config byte as not configured */
