@@ -30,7 +30,7 @@
   
  */
 #define CONFIG_BYTE 0     // EEPROM position which will store the "mark"
-#define MARKED 68         // Are you experienced?
+#define MARKED 69         // Are you experienced?
 
 /* Dependencies */
 #include <Ethernet.h>      

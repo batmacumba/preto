@@ -184,7 +184,7 @@ void setupShutter() {
   /* def: configures the board to be used as a shutter the first time you run it */
   Net_Settings net_setup;
   Servo_Settings serv_setup;
-  
+
   Serial.println("setupShutter()...");
   /* Clears EEPROM memory */
   for (int i = 0 ; i < EEPROM.length() ; i++) EEPROM.write(i, 0);
